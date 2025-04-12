@@ -178,7 +178,6 @@ function CreatingCV() {
             </div>
           </div>
 
-          {/* WSKAZÓWKI */}
           <Alert className="mt-6">
             <AlertTitle>Wskazówki końcowe:</AlertTitle>
             <AlertDescription>
