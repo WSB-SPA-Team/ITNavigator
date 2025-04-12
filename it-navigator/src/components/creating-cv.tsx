@@ -5,12 +5,12 @@ import { InfoIcon, CheckCircle } from "lucide-react";
 
 function CreatingCV() {
   return (
-    <div className="flex flex-col items-center justify-center w-full my-8 px-4">
+    <div className="flex flex-col items-center justify-center w-3/4 my-5">
       <h1 className="text-3xl font-bold mb-6">
         Jak stworzyć profesjonalne CV?
       </h1>
 
-      <Card className="w-full max-w-4xl mb-6">
+      <Card className="w-3/4 mb-6">
         <CardHeader>
           <CardTitle className="flex items-center">
             <InfoIcon className="mr-2 h-6 w-6 text-blue-500" />
@@ -34,7 +34,7 @@ function CreatingCV() {
         </CardContent>
       </Card>
 
-      <Card className="w-full max-w-4xl">
+      <Card className="w-3/4">
         <CardHeader>
           <CardTitle>Kluczowe elementy CV</CardTitle>
         </CardHeader>
