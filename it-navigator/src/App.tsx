@@ -3,6 +3,8 @@ import CreatingCV from "./components/creating-cv";
 import LinkedInProfile from "./components/linked-profile";
 import CertificatesOnResume from "./components/certificates-on-resume";
 import EducationInCV from "./components/education-in-cv";
+import UsefulCertificates from "./components/useful-certificates";
+import CVTemplateGuide from "./components/template-cv";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
         <LinkedInProfile />
         <CertificatesOnResume/>
         <EducationInCV/>
+        <CVTemplateGuide/>
+        <UsefulCertificates/>
       </div>
     </ThemeProvider>
   );
