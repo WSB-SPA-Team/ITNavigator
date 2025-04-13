@@ -5,6 +5,7 @@ import CertificatesOnResume from "./components/certificates-on-resume";
 import EducationInCV from "./components/education-in-cv";
 import UsefulCertificates from "./components/useful-certificates";
 import CVTemplateGuide from "./components/template-cv";
+import HRquestions from "./components/HR-questions";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <EducationInCV/>
         <CVTemplateGuide/>
         <UsefulCertificates/>
+        <HRquestions/>
       </div>
     </ThemeProvider>
   );
