@@ -2,6 +2,7 @@ import { ThemeProvider } from "./components/theme-provider";
 import CreatingCV from "./components/creating-cv";
 import LinkedInProfile from "./components/linked-profile";
 import CertificatesOnResume from "./components/certificates-on-resume";
+import TechnicalInterview from "./components/technical-interview";
 import EducationInCV from "./components/education-in-cv";
 import UsefulCertificates from "./components/useful-certificates";
 import CVTemplateGuide from "./components/template-cv";
@@ -14,6 +15,7 @@ function App() {
         <CreatingCV />
         <LinkedInProfile />
         <CertificatesOnResume/>
+        <TechnicalInterview/>
         <EducationInCV/>
         <CVTemplateGuide/>
         <UsefulCertificates/>
