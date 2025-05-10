@@ -2,10 +2,12 @@ import { ThemeProvider } from "./components/theme-provider";
 import CreatingCV from "./components/creating-cv";
 import LinkedInProfile from "./components/linked-profile";
 import CertificatesOnResume from "./components/certificates-on-resume";
+import TechnicalInterview from "./components/technical-interview";
 import EducationInCV from "./components/education-in-cv";
 import UsefulCertificates from "./components/useful-certificates";
 import CVTemplateGuide from "./components/template-cv";
 import ITSalaryOverview from "./components/it-salary-overview";
+import HRquestions from "./components/HR-questions";
 
 function App() {
   return (
@@ -14,10 +16,12 @@ function App() {
         <CreatingCV />
         <LinkedInProfile />
         <CertificatesOnResume/>
+        <TechnicalInterview/>
         <EducationInCV/>
         <CVTemplateGuide/>
         <UsefulCertificates/>
         <ITSalaryOverview/>
+        <HRquestions/>
       </div>
     </ThemeProvider>
   );
