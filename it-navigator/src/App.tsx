@@ -6,6 +6,7 @@ import TechnicalInterview from "./components/technical-interview";
 import EducationInCV from "./components/education-in-cv";
 import UsefulCertificates from "./components/useful-certificates";
 import CVTemplateGuide from "./components/template-cv";
+import ITSalaryOverview from "./components/it-salary-overview";
 import HRquestions from "./components/HR-questions";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <EducationInCV/>
         <CVTemplateGuide/>
         <UsefulCertificates/>
+        <ITSalaryOverview/>
         <HRquestions/>
       </div>
     </ThemeProvider>
