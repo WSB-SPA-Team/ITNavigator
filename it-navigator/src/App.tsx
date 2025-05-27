@@ -8,6 +8,7 @@ import UsefulCertificates from "./components/useful-certificates";
 import CVTemplateGuide from "./components/template-cv";
 import ITSalaryOverview from "./components/it-salary-overview";
 import HRquestions from "./components/HR-questions";
+import CompaniesKatowice from "./components/companies-katowice";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <UsefulCertificates/>
         <ITSalaryOverview/>
         <HRquestions/>
+        <CompaniesKatowice/>
       </div>
     </ThemeProvider>
   );
