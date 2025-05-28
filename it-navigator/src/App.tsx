@@ -9,6 +9,8 @@ import CVTemplateGuide from "./components/template-cv";
 import ITSalaryOverview from "./components/it-salary-overview";
 import HRquestions from "./components/HR-questions";
 import CompaniesKatowice from "./components/companies-katowice";
+import FindJobOffers from "./components/find-job-offers";
+import InterviewEtiquete from "./components/interview-etiquete";
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
         <ITSalaryOverview/>
         <HRquestions/>
         <CompaniesKatowice/>
+        <FindJobOffers/>
+        <InterviewEtiquete/>
       </div>
     </ThemeProvider>
   );
